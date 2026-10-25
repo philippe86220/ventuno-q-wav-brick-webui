@@ -7,7 +7,7 @@ services:
       - /dev/snd
 
     volumes:
-      - .:/wavrecordplay
+      - ../../../bricks/wavrecordplay:/wavrecordplay
 
     command: >
       sh -c "
